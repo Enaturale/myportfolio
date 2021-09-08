@@ -1,7 +1,7 @@
 import React from 'react'
 import "./testimonials.scss"
 
-const testimonials = () => {
+const Testimonials = () => {
     return (
         <div className="testimonial">
             
@@ -9,4 +9,4 @@ const testimonials = () => {
     )
 }
 
-export default testimonials
+export default Testimonials
