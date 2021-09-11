@@ -5,11 +5,12 @@ import Topbar from "./components/Topbar/Topbar";
 import Works from "./components/Works/Works";
 import Testimonials from "./components/Testimonals/Testimonials";
 import Contact from "./components/Contact/Contact";
+import "./app.scss"
 
 
 function App() {
   return (
-    <div className="background">
+    <div className="app">
       <Topbar />
 
       <div className="sections">
