@@ -67,17 +67,21 @@
         }
     }
     &.active{
-        background-color:black;
-        color: white;
+        background-color:darksalmon;
+        color: black;
+
+        .logo{
+            color: black;
+        }
 
         .righthand{
             span{
                 &:first-child{
-                    background-color: white;
+                    background-color: black;
                     transform: rotate(45deg);
                 }
                 &:last-child{
-                    background-color: white;
+                    background-color: black;
                     transform: rotate(-45deg);
 
                 }
