@@ -1,3 +1,40 @@
 .intro{
     background-color: wheat;
+    display: flex;
+
+    .left{
+
+        background-color: whitesmoke;
+        flex: 0.5;
+        //padding-left: 0px;
+        overflow: hidden;
+
+        .imgcontainer{
+            width: 700px;
+            height: 700px;
+            margin-left: 100px;
+            background-color: crimson;
+            border-radius: 30% 70% 20% 40%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            float: right;
+            margin-top: 10px;
+            
+
+            img{
+                margin-top: 20px;
+                width: auto;
+                height:auto;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    .right{
+        background-color: whitesmoke;
+        flex: 0.5;
+
+
+    }
 }
