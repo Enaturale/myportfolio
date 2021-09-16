@@ -23,7 +23,7 @@
                 font-size: 40px;
                 font-weight: 600;
                 text-decoration: none;
-                color: white;
+                color: inherit;
                 margin-right: 40px;
             }
 
@@ -67,21 +67,23 @@
         }
     }
     &.active{
-        background-color:darksalmon;
-        color: black;
+        background-color:white;
+        color: crimson;
 
-        .logo{
-            color: black;
-        }
+        
+
+        // .logo{
+        //     color: crimson;
+        // }
 
         .righthand{
             span{
                 &:first-child{
-                    background-color: black;
+                    background-color: crimson;
                     transform: rotate(45deg);
                 }
                 &:last-child{
-                    background-color: black;
+                    background-color: crimson;
                     transform: rotate(-45deg);
 
                 }
