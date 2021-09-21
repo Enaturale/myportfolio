@@ -11,9 +11,9 @@ export default function Intro() {
             </div>
 
             <div className="right">
-                <h2>Hi There, I am</h2>
+                <h2>Hi there, I am</h2>
                 <h1>Arowosebi Bukola</h1>
-                <h2>A Software Developer and Digital Marketer</h2>
+                <h3>A Software Developer and Digital Marketer<span></span></h3>
             </div>
                       
         </div>

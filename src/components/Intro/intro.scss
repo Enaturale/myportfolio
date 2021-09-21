@@ -1,5 +1,5 @@
 .intro{
-    background-color: wheat;
+    background-color: white;
     display: flex;
 
     .left{
@@ -14,7 +14,7 @@
             height: 700px;
             margin-left: 100px;
             background-color: crimson;
-            border-radius: 30% 70% 20% 40%;
+            border-radius: 10% 67% 10% 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
@@ -32,8 +32,9 @@
     }
 
     .right{
-        background-color: whitesmoke;
+        background-color: white;
         flex: 0.5;
+        margin-top: 10px;
 
 
     }
