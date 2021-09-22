@@ -12,20 +12,20 @@
         .imgcontainer{
             width: 700px;
             height: 700px;
-            margin-left: 100px;
+            margin-left: 70px;
             background-color: crimson;
             border-radius: 10% 67% 10% 50%;
             display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
+            //align-items: flex-end;
+            //justify-content: center;
+           //float: right;
             margin-top: 10px;
             
 
             img{
                 margin-top: 0px;
                 width: auto;
-                height: 700px;;
+                height: 700px;
                 padding-bottom: 0;
             }
         }
@@ -34,7 +34,38 @@
     .right{
         background-color: white;
         flex: 0.5;
-        margin-top: 10px;
+       // margin-top: 10px;
+      position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 70%;
+            padding-left: 50px;
+            display: flex ;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                margin: 10px 0;
+                font-size: 60px;
+                color: crimson;
+                font-weight: 400;
+            }
+
+            h2{
+                font-size: 40px;
+            }
+
+            h3{
+                font-size: 20px;
+                font-style: italic;
+            }
+        }
+
+        a{
+            position: absolute;
+            margin-bottom: 40px;
+        }
 
 
     }
