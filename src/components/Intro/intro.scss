@@ -58,13 +58,31 @@
 
             h3{
                 font-size: 20px;
-                font-style: italic;
+                //font-style: italic;
+
+                span{
+                    color: crimson;
+                }
+            
             }
         }
 
         a{
             position: absolute;
             margin-bottom: 40px;
+            left: 30%;
+
+            img{
+                width: 100px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+                
+            }
         }
 
 
