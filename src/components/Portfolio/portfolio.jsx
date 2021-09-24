@@ -13,7 +13,22 @@ export default function Portfolio() {
 
             <div className="container">
                 <div className="item">
-                    <img src="" alt="E-commerce app"/>
+                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
+                    <h3>E-Commerce App</h3>
+
+                </div>
+                <div className="item">
+                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
+                    <h3>E-Commerce App</h3>
+
+                </div>
+                <div className="item">
+                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
+                    <h3>E-Commerce App</h3>
+
+                </div>
+                <div className="item">
+                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
                     <h3>E-Commerce App</h3>
 
                 </div>
