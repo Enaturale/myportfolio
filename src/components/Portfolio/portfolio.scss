@@ -50,6 +50,9 @@
             align-items: center;
             justify-content: center;
             position: relative;
+            transition: all .5s ease-in;
+            cursor: pointer;
+
 
             h3{
                 position: absolute;
@@ -66,6 +69,7 @@
 
             &:hover{
                 background-color: crimson;
+                color: white;
                 img{
                     opacity: 0.2;
                     z-index: 0;

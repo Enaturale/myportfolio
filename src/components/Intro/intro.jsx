@@ -6,6 +6,8 @@ import { useEffect, useRef } from 'react'
 export default function Intro() {
 
     const textRef = useRef();
+    const textReference = useRef();
+
 
     useEffect(() => {
         console.log(textRef);
@@ -13,6 +15,15 @@ export default function Intro() {
             { showCursor: false,
                 backDelay: 2000, 
             strings: ['Developer', 'Programming Instructor' ]
+         })
+    }, [])
+
+    useEffect(() => {
+        console.log(textRef);
+        init(textReference.current, 
+            { showCursor: false,
+                backDelay: 2000, 
+            strings: ['Content Developer', 'Digital Marketer' ]
          })
     }, [])
     return (
@@ -28,6 +39,8 @@ export default function Intro() {
                 <h2>Hi there, I am</h2>
                 <h1>Arowosebi Bukola</h1>
                 <h3>Software <span ref={textRef}></span> </h3>
+                <h3>Freelance <span ref={textReference}></span> </h3>
+
                 {/* <h3><span>Programming</span> Instructor</h3> */}
                 </div>
 
