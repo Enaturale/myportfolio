@@ -24,25 +24,25 @@ export const webPortfolio=[
     {
         id: 1,
         title: "Chat App",
-        img: "assets/voicetech.png"
+        img: "assets/chatapp.jpg"
 
     },
-    {
-        id: 2,
-        title: "Meet Up",
-        img: "assets/blockchain.jpeg"
+    // {
+    //     id: 2,
+    //     title: "Meet Up",
+    //     img: "assets/blockchain.jpeg"
 
-    },
+    // },
     {
         id: 3,
         title: "HR Project",
-        img: "assets/programming.png"
+        img: "assets/hrproject.jpg"
 
     },
     {
         id: 4,
         title: "E-Commerce Website",
-        img: "assets/programming.png"
+        img: "assets/ecommerce.jpg"
 
     },
 
