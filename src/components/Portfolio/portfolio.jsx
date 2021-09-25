@@ -1,10 +1,15 @@
 import React from 'react'
 import PortfolioList from '../portfolioList/PortfolioList'
 import "./portfolio.scss"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import {articlesPortfolio, webPortfolio, mobilePortfolio} from "../../data"
 
 export default function Portfolio() {
-    const [selected, setSelected ] = useState("featured")
+    const [selected, setSelected ] = useState("articles")
+    const [data, setData ] = useState([])
+   
+
+
     const list=[
         {
             id: "articles",
@@ -19,6 +24,28 @@ export default function Portfolio() {
             title: "Mobile Apps",
         }
     ]
+
+    useEffect(() => {
+        switch(selected){
+            case "articles":
+                setData(articlesPortfolio)
+                break;
+            
+            case "web":
+                setData(webPortfolio)
+                break;
+
+            case "mobile":
+                setData(mobilePortfolio)
+                break;
+
+            default:
+                setData(articlesPortfolio)
+                break;
+        }
+        
+    }, [selected])
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>My Portfolio</h1>
@@ -32,26 +59,16 @@ export default function Portfolio() {
             </ul>
 
             <div className="container">
-                <div className="item">
-                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
-                    <h3>E-Commerce App</h3>
+                {data.map((d)=> (
+                    <div className="item">
+                    <img src={d.img} alt="E-commerce app"/>
+                    <h3>{d.title}</h3>
 
-                </div>
-                <div className="item">
-                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
-                    <h3>E-Commerce App</h3>
+                </div>   
 
-                </div>
-                <div className="item">
-                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
-                    <h3>E-Commerce App</h3>
-
-                </div>
-                <div className="item">
-                    <img src="assets/ecommerce.png" alt="E-commerce app"/>
-                    <h3>E-Commerce App</h3>
-
-                </div>
+                ))}
+                            
+                
             </div>
             
         </div>
