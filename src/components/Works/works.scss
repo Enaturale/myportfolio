@@ -1,3 +1,87 @@
 .works{
-    background-color: lightpink;
+    background-color: crimson;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+    .slider{
+        position: absolute;
+        height: 600px;
+        display: flex;
+        left: 0;
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 100vw;
+
+            .item{
+                height: 70%;
+                width: 700px;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                margin-top: 100px;
+
+                .left{
+                    flex: 4;
+                    //background-color: cadetblue;
+                    height: 50%;
+                    align-content: center;
+                    justify-content: center;
+                    margin-left: 20px;
+                   // margin-top: 40px;
+
+                    .leftContainer{
+                        display: flex;
+                        flex-direction: column;
+                        width: 80%;
+                        height: 100%;
+                        justify-content: space-between;
+
+                        .imgContainer{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color:rgb(243, 204, 157);
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                            margin-top: 50px;
+
+                            img{
+                                height: 30px;
+                                align-content: center;
+                                justify-content: center;
+                                margin-top: 2px;
+                            }
+
+                        }
+
+                        h2{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .right{
+                    flex: 8;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
 }
