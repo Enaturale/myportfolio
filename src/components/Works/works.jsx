@@ -1,9 +1,10 @@
-import React from 'react'
+import {useState} from 'react'
 import "./works.scss"
 
 
 
 export default function Works() {
+    const [currentSlide, setCurrentSlide] =  useState(0)
     const data = [
         {
             id: "1",
@@ -27,9 +28,15 @@ export default function Works() {
             img: "assets/chatapp.jpg",
         },
     ]
+
+    const handleClick =(way)=>{
+        way === "left" 
+        ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 2) 
+        : setCurrentSlide(currentSlide < data.length -1 ? currentSlide + 1 : 0);
+    }
     return (
         <div className="works" id="works">
-            <div className="slider" >
+            <div className="slider" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
                 {data.map(d => (
                 <div className="container">
                     <div className="item">
@@ -53,8 +60,8 @@ export default function Works() {
                 ))}
             </div>
 
-            <img src="assets/arrowleft.png" className="arrow Left" alt="arrow left"/>
-            <img src="assets/arrowleft.png" className="arrow Right" alt="arrow right"/>
+            <img src="assets/arrowleft.png" className="arrow Left" alt="arrow left" onClick={() => handleClick("left")}/>
+            <img src="assets/arrowleft.png" className="arrow Right" alt="arrow right" onClick={() => handleClick()}/>
 
 
             
