@@ -3,6 +3,26 @@
     justify-content: center;
     align-content: center;
     display: flex;
+    position: relative;
+
+    .arrow{
+        position: absolute;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 250px;
+
+        &.Right{
+            left: 100px;
+            transform: rotateX(180deg);
+        }
+
+        &.Left{
+            right: 100px;
+            transform: rotateY(180deg);
+        }
+    }
+
+    
 
     .slider{
         position: absolute;
@@ -26,13 +46,14 @@
                 justify-content: center;
                 margin-top: 100px;
 
-                .left{
-                    flex: 4;
+                .left{ 
+                    flex: 3;
                     //background-color: cadetblue;
                     height: 50%;
                     align-content: center;
                     justify-content: center;
                     margin-left: 20px;
+                    display: flex;
                    // margin-top: 40px;
 
                     .leftContainer{
@@ -43,10 +64,10 @@
                         justify-content: space-between;
 
                         .imgContainer{
-                            width: 40px;
+                            width: 40px; 
                             height: 40px;
                             border-radius: 50%;
-                            background-color:rgb(243, 204, 157);
+                            background-color: rgb(226, 120, 120);
                             display: flex;
                             align-content: center;
                             justify-content: center;
@@ -77,8 +98,19 @@
                     }
                 }
                 .right{
-                    flex: 8;
+                    flex: 9;
                     height: 100%;
+                    display: flex;
+                    align-content: center;
+                    justify-content:center;
+                    
+                    img{
+                      // width: 400px; 
+                      // transform: rotate(-10deg);
+                      // overflow: hidden;
+                      // overflow-x: hidden;
+                      // overflow-y: hidden;
+                    }
 
                 }
             }

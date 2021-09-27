@@ -15,13 +15,21 @@ export default function Works() {
                                 <h2>Title</h2>
                                 <p>What the fck is this supposed to be?</p>
                                 <span>Projects </span>
-                            </div>
+                            </div> 
                         </div>
-                        <div className="right"></div>
+
+                        <div className="right">
+                            <img src="assets/voicetech.png" alt="Voice tech work"  />
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <img src="assets/arrowleft.png" className="arrow Left" alt="arrow left"/>
+            <img src="assets/arrowleft.png" className="arrow Right" alt="arrow right"/>
+
+
             
         </div>
-    )
+    );
 }
