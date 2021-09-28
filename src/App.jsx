@@ -3,7 +3,7 @@ import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Topbar from "./components/Topbar/Topbar";
 import Works from "./components/Works/Works";
-import Testimonials from "./components/Testimonals/Testimonials";
+// import Testimonials from "./components/Testimonals/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
@@ -20,7 +20,7 @@ function App() {
       <Intro/>
       <Portfolio />
       <Works />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       </div>
     </div>
