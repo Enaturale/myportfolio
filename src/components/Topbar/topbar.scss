@@ -10,6 +10,8 @@
     z-index: 2;
     transition: all 1s ease;
 
+    
+
     .wrapper{
         padding: 10px  30px;
         display: flex;
@@ -19,6 +21,8 @@
         .left{
             display: flex;
             align-items: center;
+
+            
             .logo{
                 font-size: 40px;
                 font-weight: 600;
@@ -26,12 +30,18 @@
                 color: inherit;
                 margin-right: 50px;
                 margin-left: 80px;
+
+                
             }
 
             .itemcontainer{
                 display: flex;
                 align-items: center;
                 margin-right: 20px;
+
+                @include mobile{
+                   display: none;
+                }
 
                 .icon{
                     margin-right: 5px;
