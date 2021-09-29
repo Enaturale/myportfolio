@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Intro from "./components/Intro/Intropart";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Topbar from "./components/Topbar/Topbar";
-import Works from "./components/Works/Works";
+import Portfolio from "./components/Portfolio/Portfoliopart";
+import Topbar from "./components/Topbar/Topbarpart";
+import Works from "./components/Works/Workspart";
 // import Testimonials from "./components/Testimonals/Testimonials";
-import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contactpart";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
 
