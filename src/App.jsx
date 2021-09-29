@@ -5,7 +5,7 @@ import Topbar from "./components/Topbar/Topbarpart";
 import Works from "./components/Works/Workspart";
 // import Testimonials from "./components/Testimonals/Testimonials";
 import Contact from "./components/Contact/Contactpart";
-import Menu from "./components/menu/Menu";
+import Menu from "./components/menu/Menupart";
 import "./app.scss"
 
 
