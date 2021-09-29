@@ -3,7 +3,7 @@ import "./intro.scss"
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
 
-export default function Intro() {
+export default function Intropart() {
 
     const textRef = useRef();
     const textReference = useRef();

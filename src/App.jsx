@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Intro from "./components/Intro/*";
+import Intro from "./components/Intro/Intropart";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Topbar from "./components/Topbar/Topbar";
 import Works from "./components/Works/Works";
