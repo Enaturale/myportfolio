@@ -17,7 +17,7 @@
         overflow: hidden;
 
         .imgcontainer{
-            width: 500px;
+            width: 400px;
             height: 700px;
             margin-left: 0;
             background-color: crimson;
@@ -25,7 +25,8 @@
             display: flex;
             //align-items: flex-end;
             //justify-content: center;
-            float: left;
+            //float: left;
+            padding-right: 30px;
             margin-top: 15px;
 
             @include mobile{
