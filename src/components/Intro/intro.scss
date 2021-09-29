@@ -17,7 +17,7 @@
         overflow: hidden;
 
         .imgcontainer{
-            width: 700px;
+            width: 600px;
             height: 700px;
             margin-left: 0;
             background-color: crimson;
@@ -44,6 +44,7 @@
                 width: auto;
                 height: 500px;
                 padding-bottom: 0;
+                margin-left: 200px;
 
                 @include mobile{
                     height: 50%;
@@ -87,6 +88,7 @@
             h1{
                 margin: 20px 0;
                 font-size: 50px;
+                margin-top: 40px;
                 
                 color: crimson;
                 font-weight: 400;
