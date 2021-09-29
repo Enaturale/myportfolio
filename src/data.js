@@ -68,11 +68,11 @@ export const mobilePortfolio=[
         img: "assets/programming.png"
 
     },
-    {
-        id: 4,
-        title: "Blockchain App",
-        img: "assets/programming.png"
+    // {
+    //     id: 4,
+    //     title: "Blockchain App",
+    //     img: "assets/programming.png"
 
-    },
+    // },
 
 ]
