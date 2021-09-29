@@ -23,9 +23,9 @@
             background-color: crimson;
             border-radius: 50%;
             display: flex;
-            //align-items: flex-end;
-            //justify-content: center;
-           //float: right;
+            align-items: flex-end;
+            justify-content: center;
+            float: left;
             margin-top: 15px;
 
             @include mobile{
@@ -70,7 +70,8 @@
         .wrapper{
             width: 100%;
             height: 70%;
-            padding-left: 50px;
+            padding-left: 70px;
+            padding-top: 20px;
             display: flex ;
             flex-direction: column;
             justify-content: center;
@@ -108,7 +109,7 @@
             h3{
                 font-size: 20px;
                 //font-style: italic;
-                margin-bottom: 20px;
+                margin-top: 30px;
 
                 @include mobile{
                     font-size: 20px;
