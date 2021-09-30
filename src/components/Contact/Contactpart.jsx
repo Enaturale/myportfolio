@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import React, {useState} from 'react';
 import "./contact.scss";
 
 export default function Contact() {
@@ -25,5 +25,5 @@ export default function Contact() {
             </div>
             
         </div>
-    )
+    );
 }
