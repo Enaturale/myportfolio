@@ -1,3 +1,5 @@
+import React from 'react'
+
 import "./topbar.scss"
 import {Person, Mail, Web} from "@material-ui/icons"
 
