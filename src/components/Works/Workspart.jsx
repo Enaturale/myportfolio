@@ -11,7 +11,7 @@ export default function Works() {
             icon: "assets/marketing.jpg",
             title: "Marketing",
             desc: "5 Free and Top Digital Marketing Tools for Effective Sales and Fast, Rapid Business Growth.",
-            img: "assets/growthhacking.jpeg",
+            img: "assets/marketing.png",
         },
         {
             id: "2",
