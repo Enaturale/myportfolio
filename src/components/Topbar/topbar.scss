@@ -55,6 +55,12 @@
                     a{
                         color: white;
                         text-decoration: none;
+
+                        &.active{
+                            background-color:white;
+                            color: crimson;
+
+                        }
                     }
                 }
             }
@@ -85,6 +91,7 @@
     &.active{
         background-color:white;
         color: crimson;
+
 
         
 
