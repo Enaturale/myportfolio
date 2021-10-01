@@ -40,13 +40,14 @@
         justify-content: center;
 
         @include mobile{
-            margin-top: 0;
+            margin-top: 0px;
         }
 
         h2{
             font-size: 30px;
 
             @include mobile{
+                margin-top: -70px;
                font-size: 20px;
                align-content: center;
                justify-content: center;
