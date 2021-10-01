@@ -20,12 +20,12 @@
             overflow: hidden;
 
             @include mobile{
-                // width: 60%;
-                // justify-content: center;
-                // align-content: center;
-                // margin-left: 50px;
-                // height: 80%;
-                display: none;
+                width: 60%;
+                justify-content: center;
+                align-content: center;
+                margin-left: 60px;
+                height: 80%;
+               // display: none;
             }
         }
 
@@ -40,7 +40,7 @@
         justify-content: center;
 
         @include mobile{
-            margin-top: -100px;
+            margin-top: 0px;
         }
 
         h2{
@@ -50,7 +50,7 @@
                font-size: 20px;
                align-content: center;
                justify-content: center;
-               margin-left: 50px;
+               margin-left: 60px;
             }
         }
 
@@ -65,7 +65,7 @@
             @include mobile{
                 justify-content: space-around;
                 align-content: center;
-                margin-left: 50px;
+                margin-left: 60px;
                 margin-top: 10px;
             }
 

@@ -43,7 +43,7 @@
             
 
             img{
-                margin-top:70px;
+                margin-top:50px;
                 width: auto;
                 height: 500px;
                 padding-bottom: 0;
@@ -124,9 +124,9 @@
                 margin-top: 20px;
 
                 @include mobile{
-                    // font-size: 20px;
-                    // margin-bottom: 20px;
-                   display: none;
+                    font-size: 20px;
+                    margin-top: 10px;
+                   //display: none;
 
 
                     
