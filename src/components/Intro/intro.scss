@@ -54,7 +54,7 @@
                 @include mobile{
                     height: 50%;
                     //align-content: center;
-                    margin-left: 26px;
+                    margin-left: 32px;
                 }
             }
         }
@@ -100,6 +100,7 @@
 
                 @include mobile{
                     font-size: 25px;
+                    margin-bottom: 20px;
                     
                 }
             }
@@ -109,6 +110,8 @@
 
                 @include mobile{
                     font-size: 25px;
+                    margin-bottom: 20px;
+
                     
                 }
             }
@@ -120,6 +123,8 @@
 
                 @include mobile{
                     font-size: 20px;
+                    margin-bottom: 20px;
+
                     
                 }
 
