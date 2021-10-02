@@ -88,6 +88,7 @@
                 align-content: center;
                 margin-top: 10px;
                 height: 44%;
+                padding-top: 10px;
                  //justify-content: center;
             }
 
@@ -155,6 +156,10 @@
             img{
                 width: 100px;
                 animation: arrowBlink 2s infinite;
+
+                @include mobile{
+                    margin-bottom: 0;
+                }
             }
 
             @keyframes arrowBlink {
