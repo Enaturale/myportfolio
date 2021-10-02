@@ -53,8 +53,9 @@
 
                 @include mobile{
                     height: 50%;
-                    //align-content: center;
-                    margin-left: 50px;
+                    align-content: center;
+                    //margin-left: 50px;
+                    justify-content: center;
                 }
             }
         }
@@ -86,7 +87,7 @@
                 padding-left: 10px;
                 align-content: center;
                 margin-top: 10px;
-                height: 45%;
+                height: 43%;
                  //justify-content: center;
             }
 
@@ -145,6 +146,11 @@
             position: absolute;
             margin-bottom: 40px;
             left: 30%;
+
+            @include mobile{
+                margin-bottom: 20px;
+            }
+            
 
             img{
                 width: 100px;
