@@ -55,10 +55,10 @@
                     a{
                         color: white;
                         text-decoration: none;
-                        // &.active{
-                        //     background-color:white;
-                        //     color: crimson;
-                        // }
+                        &.active{
+                            background-color:white;
+                            color: crimson;
+                        }
 
                     }
                 }
@@ -91,11 +91,6 @@
         background-color:white;
         color: crimson;
 
-        a{
-        // background-color:white;
-        color: crimson;
-
-        }
 
 
         
