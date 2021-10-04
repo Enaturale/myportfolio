@@ -19,7 +19,7 @@ export default function Topbar({openMenu, setOpenMenu}) {
                     </div>
                     <div className="itemcontainer">
                         <Web className="icon" />
-                        <span><a href="https://github.com/Enaturale">https://github.com/Enaturale</a></span>
+                        <span><a href="https://github.com/Enaturale" className={"active"}>https://github.com/Enaturale</a></span>
                     </div>
                 </div>
                 
