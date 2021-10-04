@@ -8,6 +8,7 @@
     display: flex;
     position: relative;
     overflow: hidden;
+    //margin-top: 100px;
 
    
 
@@ -24,12 +25,12 @@
         }
 
         &.Right{
-            left: 100px;
+            right: 100px;
             transform: rotateX(180deg);
         } 
 
         &.Left{
-            right: 100px;
+            left: 100px;
             transform: rotateY(180deg);
         }
     }
@@ -75,7 +76,7 @@
                 display: flex;
                 align-content: center;
                 justify-content: center;
-                margin-top: 100px;
+                margin-top: 70px;
 
 
 
