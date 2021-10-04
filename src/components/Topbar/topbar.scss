@@ -52,14 +52,11 @@
                     font-size: 18px;
                     font-weight: 400;
 
-                    a{
+                    .link{
                         color: white;
                         background-color: crimson;
-                        text-decoration: none;
-                        &.active{
-                           // background-color:white;
-                            color: crimson;
-                        }
+                        //text-decoration: none;
+                        
 
                     }
                 }
