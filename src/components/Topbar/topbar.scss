@@ -55,7 +55,13 @@
                     .link{
                         //color:crimson;
                         //background-color: white;
-                        text-decoration: white;
+                        text-decoration: none;
+                        color: white;
+
+                        &.active{
+                            color: crimson;
+
+                        }
                         
                         
 

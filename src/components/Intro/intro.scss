@@ -7,6 +7,7 @@
     @include mobile{
         flex-direction: column;
         align-content: center;
+        justify-content: center;
     }
 
     .left{
@@ -34,7 +35,9 @@
             @include mobile{
                 width: 100%;
                 border-radius: 50%;
-                align-content: left;
+              //  align-content: left;
+              align-content: center;
+              justify-content: center;
                 padding-left: 0;
                margin-left: 0;
                 
@@ -70,6 +73,7 @@
       @include mobile{
        padding-left: 20px;
         align-content: center;
+        justify-content: center;
         
          //justify-content: center;
     }
@@ -89,7 +93,7 @@
                 margin-top: 10px;
                 height: 44%;
                 padding-top: 10px;
-                 //justify-content: center;
+                justify-content: center;
             }
 
             h1{
