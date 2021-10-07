@@ -3,6 +3,7 @@
 .intro{
     background-color: white;
     display: flex;
+    overflow: hidden;
 
     @include mobile{
         flex-direction: column;
@@ -69,6 +70,7 @@
         flex: 0.5;
        // margin-top: 10px;
       position: relative;
+      overflow: hidden;
 
       @include mobile{
        padding-left: 20px;
