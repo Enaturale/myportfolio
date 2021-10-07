@@ -34,7 +34,7 @@
             overflow: hidden;
 
             @include mobile{
-                width: 100%;
+                width: auto;
                 border-radius: 50%;
               //  align-content: left;
               align-content: center;
