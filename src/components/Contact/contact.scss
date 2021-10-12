@@ -6,9 +6,9 @@
     display: flex;
     flex-direction: column;
     
-    align-content: center;
-    justify-content: center;
-    margin-top: 50px;
+    align-content: center !important; 
+    justify-content: center !important;
+    //margin-top: 50px;
 
     
     @include mobile{
@@ -18,8 +18,10 @@
 
     .mailcenter{
         flex: 1;
+        flex-direction: row;
         align-content: center;
         justify-content: center;
+        margin-top: 50px;
         
         .mail{
             color: crimson;
@@ -36,6 +38,8 @@
         flex: 1;
         align-content: center;
         justify-content: center;
+        flex-direction: row;
+
 
         .call{
             color: crimson;
@@ -52,6 +56,8 @@
         flex: 1;
         align-content: center;
         justify-content: center;
+        flex-direction: row;
+
 
         .github{
             color: crimson;
@@ -61,6 +67,10 @@
         h2{
             font-size: 20px;
             color: crimson;
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
         }
     }
 
