@@ -13,6 +13,9 @@
     @include mobile{
         flex-direction: column;
         width: 50%;
+        align-content: center;
+        justify-content: center;
+        align-content: center;
     }
 
     .mailcenter{
@@ -31,7 +34,13 @@
         h2{
             font-size: 20px;
             color: crimson;
+
+            @include mobile{
+                font-size: 12px;
+            }
         }
+
+        
     
     }
 
@@ -50,6 +59,10 @@
         h2{
             font-size: 20px;
             color: crimson;
+
+            @include mobile{
+                font-size: 12px;
+            }
         }
 
     }
@@ -70,6 +83,11 @@
         h2{
             font-size: 20px;
             color: crimson;
+
+            @include mobile{
+                font-size: 12px;
+            }
+            
             a{
                 text-decoration: none;
                 color: inherit;
