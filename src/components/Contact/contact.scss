@@ -4,6 +4,7 @@
 .contact{
     background-color: white;
     display: flex;
+    flex-direction: row;
 
     
     @include mobile{
@@ -11,5 +12,19 @@
         width: 50%;
     }
 
+    .mailcenter{
+        flex: 1;
+    
+    }
+
+    .callcenter{
+        flex: 1;
+
+    }
+
+    .gitcenter{
+
+        flex: 1;
+    }
    
 }

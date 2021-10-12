@@ -7,18 +7,19 @@ export default function Contact() {
     return (
         <div className="contact" id="contact"> 
 
-        <div>
-            <Mail />
+        <div className="mailcenter">
+            <Mail className ="mail" />
+            <h2>bukolaarowosebi@gmail.com</h2>
         </div>
 
-        <div>
-            <Call />
+        <div className="callcenter">
+            <Call className ="call" />
+            <h2>+2349024427137</h2>
         </div>
 
-        <div>
-           
-           <GitHub />
-            
+        <div className="gitcenter">           
+           <GitHub  className ="github" />  
+           <h2><a href="https://github.com/Enaturale">https://github.com/Enaturale</a></h2>         
             
         </div>
 
