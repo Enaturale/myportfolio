@@ -5,6 +5,9 @@
     background-color: white;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
 
     
     @include mobile{
@@ -14,17 +17,34 @@
 
     .mailcenter{
         flex: 1;
+        
+        .mail{
+            color: crimson;
+        }
+
+        h2{
+            font-size: 20px;
+            color: crimson;
+        }
     
     }
 
     .callcenter{
         flex: 1;
 
+        .call{
+            color: crimson;
+        }
+
     }
 
     .gitcenter{
-
         flex: 1;
+
+        .github{
+            color: crimson;
+
+        }
     }
    
 }
