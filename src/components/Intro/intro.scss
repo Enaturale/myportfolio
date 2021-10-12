@@ -7,8 +7,8 @@
 
     @include mobile{
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
+        align-content: center !important;
+        justify-content: center !important;
     }
 
     .left{
@@ -37,8 +37,8 @@
                 width: auto;
                 border-radius: 50%;
               //  align-content: left;
-              align-content: center;
-              justify-content: center;
+              align-content: center !important;
+              justify-content: center !important;
                 padding-left: 0;
                margin-left: 0;
                 
@@ -57,9 +57,9 @@
 
                 @include mobile{
                     height: 50%;
-                    align-content: center;
+                    align-content: center !important;
                     //margin-left: 50px;
-                    justify-content: center;
+                    justify-content: center !important;
                 }
             }
         }
@@ -74,8 +74,8 @@
 
       @include mobile{
        padding-left: 20px;
-        align-content: center;
-        justify-content: center;
+        align-content: center !important;
+        justify-content: center !important;
         
          //justify-content: center;
     }
@@ -91,11 +91,11 @@
 
             @include mobile{
                 padding-left: 10px;
-                align-content: center;
+                align-content: center !important;
                 margin-top: 10px;
                 height: 44%;
                 padding-top: 10px;
-                justify-content: center;
+                justify-content: center !important;
             }
 
             h1{

@@ -1,29 +1,27 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./contact.scss";
+import {Mail, Call, GitHub} from "@material-ui/icons"
 
 export default function Contact() {
-    const[message, setMessage] = useState(false);
-
-    const handleSubmit =(e)=>{
-        e.preventDefault();
-        setMessage(true);
-    }
+   
     return (
         <div className="contact" id="contact"> 
-            <div className="left">
-                <img src="assets/contactme.png" alt="Contact" />
-            </div>
+
+        <div>
+            <Mail />
+        </div>
+
+        <div>
+            <Call />
+        </div>
+
+        <div>
+           
+           <GitHub />
             
-            <div className="right">
-                <h2>Contact.</h2>
-                <form  onSubmit={handleSubmit}> 
-                    <input type="text" placeholder="Email"></input>
-                     <textarea placeholder="Message"></textarea>
-                     <button type="submit">Send</button>
-                     {message && <span>Thank you. I will reply you soon.</span>}
-                </form>
-            </div>
             
+        </div>
+
         </div>
     );
 }
