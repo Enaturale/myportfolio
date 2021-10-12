@@ -17,10 +17,10 @@ export default function Topbar({openMenu, setOpenMenu}) {
                         <Mail className="icon" />
                         <span>bukolaarowosebi@gmail.com</span>
                     </div>
-                    <div className="itemcontainer">
+                    {/* <div className="itemcontainer">
                         <Web className="icon" />
                         <span>https://github.com/Enaturale</span>
-                    </div>
+                    </div> */}
                 </div>
                 
                 <div className="right">
