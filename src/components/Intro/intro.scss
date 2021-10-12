@@ -36,7 +36,7 @@
 
             @include mobile{
                 width: auto;
-                //border-radius: 50%;
+                border-radius: 0%;
               //  align-content: left;
               align-content: center !important;
               justify-content: center !important;
@@ -60,7 +60,7 @@
                 @include mobile{
                     height: 50%;
                     align-content: center !important;
-                    //margin-left: 50px;
+                    margin-left: 0px;
                     justify-content: center !important;
                     text-align: center !important;
                 }
