@@ -17,10 +17,11 @@
 
     .mailcenter{
         flex: 1;
-        flex-direction: row;
+        // flex-direction: row;
         align-content: center !important; 
         justify-content: center !important;
-       // margin-top: 50px;
+        margin-top: 50px;
+        margin-left: 40px;
         
         .mail{
             color: crimson;
