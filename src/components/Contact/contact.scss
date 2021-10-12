@@ -2,12 +2,13 @@
 
 
 .contact{
-    background-color: white;
+    background-color:bisque;
     display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+    flex-direction: column;
+    
     align-content: center;
     justify-content: center;
+    margin-top: 50px;
 
     
     @include mobile{
@@ -17,6 +18,8 @@
 
     .mailcenter{
         flex: 1;
+        align-content: center;
+        justify-content: center;
         
         .mail{
             color: crimson;
@@ -31,8 +34,15 @@
 
     .callcenter{
         flex: 1;
+        align-content: center;
+        justify-content: center;
 
         .call{
+            color: crimson;
+        }
+
+        h2{
+            font-size: 20px;
             color: crimson;
         }
 
@@ -40,11 +50,19 @@
 
     .gitcenter{
         flex: 1;
+        align-content: center;
+        justify-content: center;
 
         .github{
             color: crimson;
 
         }
+
+        h2{
+            font-size: 20px;
+            color: crimson;
+        }
     }
+
    
 }
